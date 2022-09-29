@@ -19,6 +19,7 @@ void PrintArray(int[] arr)
     }
     Console.WriteLine();
 }
-int[] massiv = new int[8];
+Console.WriteLine("Введите число элементов массива: ");
+int[] massiv = new int[Convert.ToInt32(Console.ReadLine())];
 FillArray(massiv);
 PrintArray(massiv);
